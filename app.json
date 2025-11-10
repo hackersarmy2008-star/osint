@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Mobile Supabase App",
+    "slug": "mobile-supabase-app",
+    "scheme": "mobile-supabase-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.example.mobilesupabaseapp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "supabaseUrl": "https://wrfqwjoiqvnwasxvidoa.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndyZnF3am9pcXZud2FzeHZpZG9hIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI3NzEyOTMsImV4cCI6MjA3ODM0NzI5M30.eg4nmyLKTxN7jxfAS2TaQsvuolxjEOBlDK0827c4S3A",
+      "eas": {
+        "projectId": "9dddaabd-e244-4719-a2e9-72743f0bea64"
+      }
+    },
+    "owner": "priyanshu2008-shaw"
+  }
+}
